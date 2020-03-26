@@ -18,7 +18,8 @@ struct ContentView: View {
                 
                 HStack {
                     Button(action: {
-                        // your action here
+                        let restapi = RestAPI()
+                        restapi.dupa()
                     }) {
                         Text("Button 1")
                         .padding()
