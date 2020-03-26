@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A37EC0F242D3EC400E1EB33 /* iBeaconBroadcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37EC0E242D3EC400E1EB33 /* iBeaconBroadcastView.swift */; };
+		0A37EC11242D3FCD00E1EB33 /* iBeaconReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37EC10242D3FCD00E1EB33 /* iBeaconReceiverView.swift */; };
 		0A71EF1A2427B31A00C2F2D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71EF192427B31A00C2F2D8 /* AppDelegate.swift */; };
 		0A71EF1C2427B31A00C2F2D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71EF1B2427B31A00C2F2D8 /* SceneDelegate.swift */; };
 		0A71EF1F2427B31A00C2F2D8 /* hackaton_TrackCovidCluster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A71EF1D2427B31A00C2F2D8 /* hackaton_TrackCovidCluster.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A37EC0E242D3EC400E1EB33 /* iBeaconBroadcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconBroadcastView.swift; sourceTree = "<group>"; };
+		0A37EC10242D3FCD00E1EB33 /* iBeaconReceiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconReceiverView.swift; sourceTree = "<group>"; };
 		0A71EF162427B31A00C2F2D8 /* hackaton_TrackCovidCluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackaton_TrackCovidCluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A71EF192427B31A00C2F2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A71EF1B2427B31A00C2F2D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				0A71EF2A2427B31D00C2F2D8 /* Info.plist */,
 				0A71EF1D2427B31A00C2F2D8 /* hackaton_TrackCovidCluster.xcdatamodeld */,
 				0A71EF242427B31D00C2F2D8 /* Preview Content */,
+				0A37EC0E242D3EC400E1EB33 /* iBeaconBroadcastView.swift */,
+				0A37EC10242D3FCD00E1EB33 /* iBeaconReceiverView.swift */,
 			);
 			path = hackaton_TrackCovidCluster;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A37EC11242D3FCD00E1EB33 /* iBeaconReceiverView.swift in Sources */,
+				0A37EC0F242D3EC400E1EB33 /* iBeaconBroadcastView.swift in Sources */,
 				0A71EF1F2427B31A00C2F2D8 /* hackaton_TrackCovidCluster.xcdatamodeld in Sources */,
 				0A71EF1A2427B31A00C2F2D8 /* AppDelegate.swift in Sources */,
 				0A71EF212427B31A00C2F2D8 /* ContentView.swift in Sources */,
